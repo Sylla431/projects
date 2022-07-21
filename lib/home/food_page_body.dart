@@ -62,7 +62,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
     )
       ],
     );
-  }
+  }git
   Widget _buildPageItem(int index){
 //Make zooming in and zooming out slide
     Matrix4 matrix=new Matrix4.identity();
