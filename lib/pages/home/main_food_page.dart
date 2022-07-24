@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:food_delivery/home/food_page_body.dart';
+import 'package:food_delivery/pages/home/food_page_body.dart';
 import 'package:food_delivery/utils/Dimension.dart';
 import 'package:food_delivery/utils/colors.dart';
 import 'package:food_delivery/widgets/big_text.dart';
 import 'package:food_delivery/widgets/small_text.dart';
+
+
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key? key}) : super(key: key);
@@ -30,7 +32,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 children: [
                   Column(
                     children: [
-                      BigText(text: "Mali", color: AppColors.mainColor),
+                      BigText(text: "Yirimadio", color: AppColors.mainColor),
                       Row(
                         children: [
                           SmallText(text: "Bamako", color: Colors.black54),
@@ -56,7 +58,9 @@ class _MainFoodPageState extends State<MainFoodPage> {
             ),
           ),
           //Showing the Slider food part
-          FoodPageBody()
+          Expanded(child: SingleChildScrollView(
+            child: FoodPageBody(),
+          ))
         ],
       ),
 

@@ -19,12 +19,26 @@ static double width15 = screenHeight/54.66;
 static double width20 = screenHeight/41;
 static double width30 = screenHeight/27.33;
 static double width45 = screenHeight/18.22;
-
+// Font Size
+static double font16= screenHeight/51.25;
 static double font20= screenHeight/41;
+static double font26= screenHeight/31.53;
 
 static double radius20= screenHeight/41;
 static double radius15= screenHeight/54.66;
 static double radius30= screenHeight/27.33;
 
+// Icon Size
 static double iconSize24 = screenHeight/34.16;
+static double iconSize16 = screenHeight/51.25;
+
+//ListView Size
+static double listViewImageSize= screenWidth/3.25;
+static double listViewTextContSize= screenWidth/3.9;
+
+//popular food
+static double popularFoodImgSize= screenHeight/2.34;
+
+// PopularFoodDetail Bottom height
+static double popularFoodDetailBottomBar=screenHeight/6.83;
 }
